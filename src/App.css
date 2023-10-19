@@ -15,3 +15,12 @@
 .heading{
   background-color: whitesmoke;
 }
+::-webkit-scrollbar{
+  width: 0.3rem;
+  padding: 0.1rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(74, 92, 245);
+  width: 0.1rem;
+  border-radius: 0.7rem;
+}

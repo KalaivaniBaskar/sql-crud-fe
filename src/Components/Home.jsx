@@ -94,7 +94,7 @@ const Home = () => {
         <ButtonComp variant='contained' size='medium' color='info' onClick={() => navigate('/add')}>
              + ADD</ButtonComp>   
         </Stack>
-        <Box sx={{overflowX : 'auto'}} component={Paper}>
+        <Box sx={{overflow : 'auto'}} maxHeight={'80dvh'} component={Paper}>
         <TableContainer > 
             <Table>
                 <TableHead>
