@@ -11,7 +11,8 @@ export const CtxProvider = ({children}) => {
         draggable : true,
         theme: 'dark'
     } 
-    const BASE_URL = 'http://localhost:5000'
+    const BASE_URL = 'https://sql-crud.onrender.com'
+    // const BASE_URL = 'http://localhost:5000'
     return(
         <studentContext.Provider value={{student, setStudent, toastOptions, BASE_URL}}>
             {children}
